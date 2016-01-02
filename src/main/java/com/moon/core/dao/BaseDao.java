@@ -16,9 +16,9 @@ public interface BaseDao<T> {
      */
     public T get(String params);
     /**
-     *
-     * @param params
-     * @return
+     * 获取多个实体信息
+     * @param params 参数
+     * @return List<T>
      */
     public List<T> getList(String params);
 
